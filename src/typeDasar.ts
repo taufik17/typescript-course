@@ -2,7 +2,7 @@
 let nama: string = "Taufik Agung Santoso"
 nama = "string";
 
-console.log(nama)
+// console.log(nama)
 
 // Number
 let umur: number = 25
@@ -19,4 +19,12 @@ heroes = []
 heroes = {}
 heroes = true || false || "String"
 
-console.log(heroes)
+// console.log(heroes)
+
+
+// union type
+let phone: number | string
+phone = 2812345
+phone = "085367232946"
+
+console.log(phone)
